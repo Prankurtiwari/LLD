@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ed1cc14-b25d-4a8a-ab11-a49fa30024b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LLD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/ObserverPattern/FlipkartStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/ObserverPattern/Observable/IphoneStockObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/ObserverPattern/Observable/StockObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/ObserverPattern/Observer/EmailNotificationObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/ObserverPattern/Observer/MobileNotificationObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/ObserverPattern/Observer/NotificationObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/with/GoodsVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/with/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/with/OffRoadVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/with/PassengerVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/with/SportVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/with/Strategy/DriveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/with/Strategy/GoodsDriveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/with/Strategy/NormalDriveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/with/Strategy/SportsDriveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/with/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/without/GoodsVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/without/OffRoadVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/without/PessangerVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/without/SportVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioural_Design_Pattern/StrategyPattern/without/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/AbstarctFactoryPattern/AsusFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/AbstarctFactoryPattern/AsusGPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/AbstarctFactoryPattern/AsusMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/AbstarctFactoryPattern/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/AbstarctFactoryPattern/CompanyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/AbstarctFactoryPattern/GPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/AbstarctFactoryPattern/MSIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/AbstarctFactoryPattern/MSIGPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/AbstarctFactoryPattern/MSIMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/AbstarctFactoryPattern/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/FactoryPattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/FactoryPattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/FactoryPattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/FactoryPattern/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/FactoryPattern/ShapeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational_Design_Pattern/FactoryPattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/depedencyInversion/theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/depedencyInversion/with/IKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/depedencyInversion/with/IMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/depedencyInversion/with/MacBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/depedencyInversion/without/IKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/depedencyInversion/without/IMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/depedencyInversion/without/MacBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/interfaceSegmented/theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/interfaceSegmented/with/IChef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/interfaceSegmented/with/IWaiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/interfaceSegmented/with/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/interfaceSegmented/without/RestaurantEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/interfaceSegmented/without/waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/with/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/with/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/with/EngineVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/with/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/with/MotorCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/with/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/without/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/without/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/without/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/without/MotorCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/liskovSubstition/without/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/openClose/theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/openClose/with/DatabaseInvoiceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/openClose/with/FileInvoiceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/openClose/with/IInvoiceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/openClose/with/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/openClose/without/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/singleResponsibility/theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/singleResponsibility/with/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/singleResponsibility/without/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural_Design_Pattern/StructuralPattern/Base/BasePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural_Design_Pattern/StructuralPattern/Base/CloudNinePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural_Design_Pattern/StructuralPattern/Base/VegDelightPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural_Design_Pattern/StructuralPattern/Decorator/ExtraCheeseTopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural_Design_Pattern/StructuralPattern/Decorator/MushroomTopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural_Design_Pattern/StructuralPattern/Decorator/ToppingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural_Design_Pattern/StructuralPattern/PizzaShop.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2nADUFGN8q2pKouIJ7gwHbElzPX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/prankurtiwari/IdeaProjects/LLD/src/StrategyPattern/with"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/StrategyPattern/with/" />
+      <recent name="$PROJECT_DIR$/src/liskovsubstition/with" />
+      <recent name="$PROJECT_DIR$/src/depedencyinversion/with" />
+      <recent name="$PROJECT_DIR$/src/depedencyinversion" />
+      <recent name="$PROJECT_DIR$/src/interfacesegmented" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/liskovsubstition" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Creational_Design_Pattern.AbstarctFactoryPattern" />
+      <recent name="Creational_Design_Pattern.FactoryPattern" />
+      <recent name="Structural_Design_Pattern.StructuralPattern" />
+      <recent name="StrategyPattern.with.Strategy" />
+      <recent name="StrategyPattern.without" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CompanyMain">
+    <configuration name="Behavioural_Design_Pattern.StrategyPattern.with.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Behavioural_Design_Pattern.StrategyPattern.with.Main" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Behavioural_Design_Pattern.StrategyPattern.with.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Creational_Design_Pattern.AbstarctFactoryPattern.CompanyMain" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Creational_Design_Pattern.AbstarctFactoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlipkartStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Behavioural_Design_Pattern.ObserverPattern.FlipkartStore" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Behavioural_Design_Pattern.ObserverPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Structural_Design_Pattern.StructuralPattern.PizzaShop" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Structural_Design_Pattern.StructuralPattern.Base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Creational_Design_Pattern.FactoryPattern.ShapeMain" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Creational_Design_Pattern.FactoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CompanyMain" />
+        <item itemvalue="Application.ShapeMain" />
+        <item itemvalue="Application.PizzaShop" />
+        <item itemvalue="Application.FlipkartStore" />
+        <item itemvalue="Application.Behavioural_Design_Pattern.StrategyPattern.with.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ed1cc14-b25d-4a8a-ab11-a49fa30024b3" name="Changes" comment="" />
+      <created>1728407000361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728407000361</updated>
+    </task>
+    <servers />
+  </component>
+</project>

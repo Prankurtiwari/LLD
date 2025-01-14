@@ -1,0 +1,2 @@
+according to this principle :
+                -> class should depend on interface rather than concrete classes.

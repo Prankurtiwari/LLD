@@ -1,0 +1,2 @@
+according to this principle :
+                -> class should be open for extension but close for modification
