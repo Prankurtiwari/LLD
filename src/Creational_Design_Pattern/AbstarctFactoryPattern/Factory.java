@@ -1,6 +1,6 @@
 package Creational_Design_Pattern.AbstarctFactoryPattern;
 
-public abstract class Company {
+public abstract class Factory {
     public GPU gpu;
     public Monitor monitor;
 

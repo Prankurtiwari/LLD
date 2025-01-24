@@ -1,6 +1,6 @@
 package Creational_Design_Pattern.AbstarctFactoryPattern;
 
-public class MSIFactory extends Company{
+public class MSIFactory extends Factory {
     @Override
     public GPU createGPU() {
         this.gpu = new MSIGPU();

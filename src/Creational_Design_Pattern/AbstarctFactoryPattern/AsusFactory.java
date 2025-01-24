@@ -1,6 +1,6 @@
 package Creational_Design_Pattern.AbstarctFactoryPattern;
 
-public class AsusFactory extends Company{
+public class AsusFactory extends Factory {
     @Override
     public GPU createGPU() {
         this.gpu = new AsusGPU();
