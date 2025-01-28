@@ -1,4 +1,4 @@
-package Structural_Design_Pattern.StructuralPattern.Base;
+package Structural_Design_Pattern.DecoratorPattern.Base;
 
 public class VegDelightPizza extends BasePizza{
 

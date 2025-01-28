@@ -1,10 +1,10 @@
-package Structural_Design_Pattern.StructuralPattern;
+package Structural_Design_Pattern.DecoratorPattern;
 
-import Structural_Design_Pattern.StructuralPattern.Base.BasePizza;
-import Structural_Design_Pattern.StructuralPattern.Base.CloudNinePizza;
-import Structural_Design_Pattern.StructuralPattern.Base.VegDelightPizza;
-import Structural_Design_Pattern.StructuralPattern.Decorator.ExtraCheeseTopping;
-import Structural_Design_Pattern.StructuralPattern.Decorator.MushroomTopping;
+import Structural_Design_Pattern.DecoratorPattern.Base.BasePizza;
+import Structural_Design_Pattern.DecoratorPattern.Base.CloudNinePizza;
+import Structural_Design_Pattern.DecoratorPattern.Base.VegDelightPizza;
+import Structural_Design_Pattern.DecoratorPattern.Decorator.ExtraCheeseTopping;
+import Structural_Design_Pattern.DecoratorPattern.Decorator.MushroomTopping;
 
 public class PizzaShop {
 
