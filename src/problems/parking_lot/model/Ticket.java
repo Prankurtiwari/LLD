@@ -6,10 +6,12 @@ public class Ticket {
     private int floorNumber;
     private Vehicle vehicle;
     private ParkingSpot parkingSpot;
-    private long startTime;
-    private long endTime;
+
     private int price;
     private String name;
+
+    private Timestamp startTime;
+    private Timestamp endTime;
 
     public Ticket(int floorNumber, Vehicle vehicle, ParkingSpot parkingSpot, String name) {
         this.floorNumber = floorNumber;
@@ -43,11 +45,6 @@ public class Ticket {
     }
 
 
-    public void setStartTime(long startTime) {
-        this.startTime = startTime;
-    }
-
-
     public int getPrice() {
         return price;
     }
@@ -62,5 +59,21 @@ public class Ticket {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Timestamp getStartTime() {
+        return startTime;
+    }
+
+    public Timestamp getEndTime() {
+        return endTime;
+    }
+
+    public void setStartTime(Timestamp startTime) {
+        this.startTime = startTime;
+    }
+
+    public void setEndTime(Timestamp endTime) {
+        this.endTime = endTime;
     }
 }

@@ -6,7 +6,7 @@ import problems.parking_lot.model.Ticket;
 public class MinutesCostComputation implements CostComputationStrategy{
     @Override
     public double calculateCostForTicket(Ticket ticket) {
-        long noOfHours = ticket.getEndTime() - ticket.getStartTime();
+        long noOfHours = ticket.getEndTime().getTime() - ticket.getStartTime().getTime();
         int basePrice = new ParkingSpotStrategyFactory()
                 .getParkingSpotStrategy(ticket.getVehicle().getVehicleType()).basePrice();
         return (double) noOfHours * basePrice;
