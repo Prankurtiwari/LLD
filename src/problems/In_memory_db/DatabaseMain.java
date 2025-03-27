@@ -15,13 +15,15 @@ Each row will have a unique,Auto-Gen-ID
   * */
 
 
-class Main {
+class DatabaseMain {
 
    public static void main(String[] args) {
         InMemoryDataStore dataStore = new InMemoryDataStore();
 
         // Create a table
         dataStore.createTable("users");
+
+        dataStore.createTable("product");
 
         // Insert rows
         Map<String,String> user1 = new HashMap<>();
@@ -36,10 +38,24 @@ class Main {
         user3.put("name", "Shubhi");
         user3.put("age", "21");
 
+
+        Map<String,String> product1 = new HashMap<>();
+        product1.put("name", "iphone");
+        product1.put("cost", "30");
+
+        Map<String,String> product2 = new HashMap<>();
+        product2.put("name", "samsung");
+        product2.put("cost", "25");
+
+
+
+
         int user1Id = dataStore.insert("users", user1); // ID 1
         int user2Id = dataStore.insert("users", user2); // ID 2
         int user3Id = dataStore.insert("users", user3); // ID 2
 
+        int product1Id = dataStore.insert("product", product1); // ID 1
+        int product2Id = dataStore.insert("product", product2); // ID 2
 
         // Complex Query Example
         Map<String,String> conditions = new HashMap<>();

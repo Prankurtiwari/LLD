@@ -40,7 +40,7 @@ class InMemoryDataStore implements DataStore {
     @Override
     public void index(String tableName, String column) {
         validateTableExists(tableName);
-        tables.get(tableName).createIndex(column);
+        tables.get(tableName). createIndex(column);
     }
 
     @Override

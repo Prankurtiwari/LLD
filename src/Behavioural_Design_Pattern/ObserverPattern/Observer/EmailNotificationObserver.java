@@ -3,8 +3,8 @@ package Behavioural_Design_Pattern.ObserverPattern.Observer;
 import Behavioural_Design_Pattern.ObserverPattern.Observable.StockObservable;
 
 public class EmailNotificationObserver implements NotificationObserver{
-    StockObservable observable;
-    String email;
+    private final StockObservable observable;
+    private final String email;
 
     public EmailNotificationObserver(StockObservable observable, String email) {
         this.observable =observable;
