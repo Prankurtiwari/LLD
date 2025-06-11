@@ -1,4 +1,4 @@
-package problems.In_memory_db;
+package problems.In_memory_db.service;
 
 import java.util.List;
 import java.util.Map;

@@ -1,5 +1,8 @@
 package problems.In_memory_db;
 
+import problems.In_memory_db.service.DataStore;
+import problems.In_memory_db.service.impl.InMemoryDataStore;
+
 import java.util.HashMap;
 import java.util.*;/*
   *
@@ -18,7 +21,7 @@ Each row will have a unique,Auto-Gen-ID
 class DatabaseMain {
 
    public static void main(String[] args) {
-        InMemoryDataStore dataStore = new InMemoryDataStore();
+        DataStore dataStore = new InMemoryDataStore();
 
         // Create a table
         dataStore.createTable("users");

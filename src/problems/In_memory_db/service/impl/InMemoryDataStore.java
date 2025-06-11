@@ -1,10 +1,11 @@
-package problems.In_memory_db;
+package problems.In_memory_db.service.impl;
 
 import problems.In_memory_db.Model.Table;
+import problems.In_memory_db.service.DataStore;
 
 import java.util.*;
 
-class InMemoryDataStore implements DataStore {
+public class InMemoryDataStore implements DataStore {
     private final Map<String, Table> tables = new HashMap<>();
     private int autoIncrementId = 1;
 
