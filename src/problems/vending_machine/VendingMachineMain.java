@@ -9,7 +9,7 @@ import problems.vending_machine.state.State;
 
 public class VendingMachineMain {
     public static void main(String[] args) {
-        VendingMachine vendingMachine = new VendingMachine();
+        VendingMachine vendingMachine = VendingMachine.getVendingMachineObject();
         try {
 
             System.out.println("|");

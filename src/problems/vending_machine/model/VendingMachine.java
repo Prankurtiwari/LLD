@@ -8,14 +8,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VendingMachine {
+
+    private static volatile VendingMachine vendingMachine;
     private Inventory inventory;
     private List<Coin> coinList;
     private State state;
 
-    public VendingMachine() {
+    private VendingMachine() {
         state = new IdleState();
         inventory = new Inventory(10);
         coinList = new ArrayList<>();
+    }
+
+    public static VendingMachine getVendingMachineObject() {
+        if (vendingMachine == null) {
+            synchronized(VendingMachine.class)
+            {
+                if (vendingMachine == null) {
+                    vendingMachine = new VendingMachine();
+                }
+            }
+        }
+        return vendingMachine;
     }
 
     public Inventory getInventory() {
