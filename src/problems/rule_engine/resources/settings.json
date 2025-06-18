@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "title": "Settings Screen",
+    "description": "All user related settings will be shown here"
+  },
+  "settings": [
+    {
+      "title": "Address Management",
+      "description": "Manage your address",
+      "label": "address",
+      "priority": 1,
+      "category": "account"
+    },
+    {
+      "title": "Payment History",
+      "description": "View your payment history",
+      "label": "payment_history",
+      "priority": 2,
+      "category": "billing"
+    },
+    {
+      "title": "Booking History",
+      "description": "View your booking history",
+      "label": "booking_history",
+      "priority": 3,
+      "category": "billing"
+    },
+    {
+      "title": "Logout",
+      "description": "Logout of your account",
+      "label": "logout",
+      "priority": 4,
+      "category": "account"
+    },
+    {
+      "title": "Login History",
+      "description": "Login History of your account",
+      "label": "login",
+      "priority": 5,
+      "category": "account"
+    }
+  ]
+}

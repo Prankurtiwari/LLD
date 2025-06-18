@@ -1,0 +1,31 @@
+{
+  "rules": [
+    {
+      "label": "address",
+      "conditions": {
+        "isLocked": ["FREE"],
+        "isNew": ["ROOT_USER"],
+        "hidden": ["PREMIUM", "FREE"]
+      }
+    },
+    {
+      "label": "booking_history",
+      "conditions": {
+        "isNew": ["DEPENDENT"],
+        "toShow": ["PREMIUM"]
+      }
+    },
+    {
+      "label": "payment_history",
+      "conditions": {
+        "toShow": ["ROOT_USER", "PREMIUM"]
+      }
+    },
+    {
+      "label": "login",
+      "conditions": {
+        "toShow": ["ROOT_USER"]
+      }
+    }
+  ]
+}

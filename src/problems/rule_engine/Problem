@@ -1,0 +1,70 @@
+Input
+
+We have to create an endppoint which will give a settings screen configuration for the app.
+The configuration will be a json object with the following fields:
+{
+  "metadata": {
+    "title": "Settings Screen",
+    "description": "All user related settings will be shown here"
+  },
+  "settings": [
+    {
+      "title": "Address Management",
+      "description": "Manage your address",
+      "label": "address",
+      "priority": 1,
+      "isNew": true,
+      "isLocked": false,
+      "category": "account",
+    },
+    {
+      "title": "Payment History",
+      "description": "View your payment history",
+      "label": "payment_history",
+      "priority": 2,
+      "isNew": false,
+      "isLocked": false,
+      "category": "billing",
+    },
+    {
+      "title": "Booking History",
+      "description": "View your booking history",
+      "label": "booking_history",
+      "priority": 3,
+      // "isNew": false,
+      // "isLocked": true,
+      "category": "billing",
+    },
+    {
+      "title": "Logout",
+      "description": "Logout of your account",
+      "label": "logout",
+      "priority": 4,
+      "isNew": false,
+      "isLocked": false,
+      "category": "account",
+    }
+  ]
+}
+
+Now these values will have variable payload based on what kind of user it is.
+Category:
+  - Free / Premium
+  - Root User/ Dependent
+
+Free  ->  booking history isLocked
+Dependent - > booking history no object
+Premium -> Rule 3
+Root user -> rule 4
+
+
+
+Free + ROOT -> booking history locked
+Dependent + Premium -> booking history no object
+
+{
+
+}
+
+
+
