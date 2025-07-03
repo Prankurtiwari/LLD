@@ -13,10 +13,6 @@ public class RawRuleDefinition {
     public RawRuleDefinition() { }
 
     public String getLabel() { return label; }
-    public void setLabel(String label) { this.label = label; }
 
     public Map<String, List<UserType>> getConditions() { return conditions; }
-    public void setConditions(Map<String, List<UserType>> conditions) {
-        this.conditions = conditions;
-    }
 }
